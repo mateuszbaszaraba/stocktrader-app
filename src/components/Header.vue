@@ -1,6 +1,6 @@
 <template>
-    <b-container class="mt-4">
-        <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-col xl='8' offset-xl="2">
+        <b-navbar toggleable="lg" type="dark" variant="info" class="mt-4">
             <router-link class="cursor-pointer" to='/' tag='b-navbar-brand'>Stock Trader</router-link>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -24,7 +24,7 @@
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>
-    </b-container>
+    </b-col>
 </template>
 
 <style>

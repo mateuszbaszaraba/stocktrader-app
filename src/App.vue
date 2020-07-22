@@ -1,8 +1,10 @@
 <template>
-  <b-container>
-    <b-row>
+  <b-container fluid>
       <app-header></app-header>
-      <router-view></router-view>
+    <b-row class="mt-3">
+      <b-col xl="8" offset-xl="2">
+        <router-view></router-view>
+      </b-col>
     </b-row>
   </b-container>
 </template>

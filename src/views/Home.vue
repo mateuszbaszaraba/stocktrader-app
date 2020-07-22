@@ -1,9 +1,9 @@
 <template>
-  <b-container>
+  <div>
     <b-row>
       <h1>Home Page</h1>
     </b-row>
-  </b-container>
+  </div>
 </template>
 
 <script>
